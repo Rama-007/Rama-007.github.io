@@ -49,18 +49,18 @@ But the dataset had much useless information so after features were extracted an
 
 * **Supervised Approach**
 
-In this approach we manually annotated each tweet. In case of ambiguity we assigned the tweet to multiple persona. Maximum persona of single tweet is 3.
+   * In this approach we manually annotated each tweet. In case of ambiguity we assigned the tweet to multiple persona. Maximum persona of single tweet is 3.
 
-   | Persona       | Tweet Count   |
-   | ------------- | ------------- |
-   | Patients      |      432      |
-   | Pharmacists   |      261      |
-   | Caretaker     |      199      |
-   | Consultant    |      260      |
-   | Journalist    |      252      |
-   | Researcher    |      266      |
-   | Other         |      261      |
-      
+       | Persona       | Tweet Count   |
+       | ------------- | ------------- |
+       | Patients      |      432      |
+       | Pharmacists   |      261      |
+       | Caretaker     |      199      |
+       | Consultant    |      260      |
+       | Journalist    |      252      |
+       | Researcher    |      266      |
+       | Other         |      261      |
+
 ### Text Normalization and Spell correction
 Once we get the tweet data, we first normalize the tweet text and for each word present in the tweet we use spell checker and make necessary corrections.
 
