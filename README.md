@@ -30,6 +30,11 @@ The main  goal is to extract tweets belonging to multiple personae. But crawling
 We used **TwitterSearch** API with the drugs as keywords and get all the data related to that tweet in dictionary format.
  
 The dataset generation in phase one :
+
+llsdflsklfsf
 * **Semi-Supervised approach**
+
+
+
   * Collected the handles of people belonging to different persona
   * Collected tweets from the above handles related to medical domain using keyword search
