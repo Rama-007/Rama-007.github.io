@@ -73,3 +73,8 @@ On the crawled data feature engineering is performed and around 40 features are 
   * Tweet Network
   * Tweet links
 
+### Deep Learning Methods for Classification:
+We propose a Convolutional Neural Network (CNN) based architecture to extract features from word n-grams of a sentence. These features combined with the above features can be used for persona classification in tweets. We also try other architectures like LSTM model , CNN+LSTM model , Hybrid of CNN,LSTM models and discuss the best model for persona classification.
+
+![alt text](https://raw.githubusercontent.com/Rama-007/Rama-007.github.io/img.png)
+
