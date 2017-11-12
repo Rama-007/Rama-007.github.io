@@ -83,7 +83,5 @@ We propose a Convolutional Neural Network (CNN) based architecture to extract fe
 * Link to Presentation
 * Link to YouTube
 * Link to 
-* [Github Link :]
-(https://github.com/sanket0211/Medical-Persona-Classification-in-Social-Media/tree/master/datasets)
-* [Report :]
-(https://docs.google.com/document/d/11GBqwGuNXoznBeOZG3xKIhGJoUJ_Y63YITKbKaDg_qM/edit)
+* [Github Link: ](https://github.com/sanket0211/Medical-Persona-Classification-in-Social-Media/tree/master/datasets)
+* [Report: ](https://docs.google.com/document/d/11GBqwGuNXoznBeOZG3xKIhGJoUJ_Y63YITKbKaDg_qM/edit)
