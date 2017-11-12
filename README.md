@@ -36,11 +36,13 @@ The dataset generation in phase one :
   * We collected handles of people belonging to different persona based on their popularity using google search.
   * We collected tweets from the above handles related to medical domain using keyword search. Using twitter api, we collected tweets for 6 persona using various apt-key words related to each persona. Dataset Information :
 
-| Persona       | Tweet Count   |
-| ------------- | ------------- |
-| Patients      |      120      |
-| Pharmacists   |       69      |
-| Caretaker     |       71      |
-| Consultant    |      200      |
-| Journalist    |      127      |
-| Researcher    |      130      |
+                       | Persona       | Tweet Count   |
+                       | ------------- | ------------- |
+                       | Patients      |      120      |
+                       | Pharmacists   |       69      |
+                       | Caretaker     |       71      |
+                       | Consultant    |      200      |
+                       | Journalist    |      127      |
+                       | Researcher    |      130      |
+
+But the dataset had much useless information so after features were extracted and classification was done, though it performed well on the training data whenever a new tweet was given it assigned every tweet to single persona which was not intended. So we changed our approach to Supervised, increased the amount of data and features.
