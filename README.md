@@ -46,3 +46,28 @@ The dataset generation in phase one :
       | Researcher    |      130      |
 
 But the dataset had much useless information so after features were extracted and classification was done, though it performed well on the training data whenever a new tweet was given it assigned every tweet to single persona which was not intended. So we changed our approach to Supervised, increased the amount of data and features.
+
+* **Supervised Approach**
+
+In this approach we manually annotated each tweet. In case of ambiguity we assigned the tweet to multiple persona. Maximum persona of single tweet is 3.
+
+      | Persona       | Tweet Count   |
+      | ------------- | ------------- |
+      | Patients      |      432      |
+      | Pharmacists   |      261      |
+      | Caretaker     |      199      |
+      | Consultant    |      260      |
+      | Journalist    |      252      |
+      | Researcher    |      266      |
+      | Other         |      261      |
+      
+* Text Normalization and Spell correction : Once we get the tweet data, we first normalize the tweet text and for each word present in the tweet we use spell checker and make necessary corrections.
+
+* Feature Extraction : On the crawled data feature engineering is performed and around 40 features are extracted from the tweet data. The features belong in following categories:
+ * Metadata
+ * Simple Tweet Content
+ * Linguistic Content in Tweet
+ * Tweet Author
+ * Tweet Network
+ * Tweet links
+
