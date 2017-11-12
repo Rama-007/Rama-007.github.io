@@ -36,7 +36,7 @@ The dataset generation in phase one :
   * We collected handles of people belonging to different persona based on their popularity using google search.
   * We collected tweets from the above handles related to medical domain using keyword search. Using twitter api, we collected tweets for 6 persona using various apt-key words related to each persona. Dataset Information :
 
-      | Persona       | Tweet Count   |
+      |    Persona    |  Tweet Count  |
       | ------------- | ------------- |
       | Patients      |      120      |
       | Pharmacists   |       69      |
@@ -51,7 +51,7 @@ But the dataset had much useless information so after features were extracted an
 
    * In this approach we manually annotated each tweet. In case of ambiguity we assigned the tweet to multiple persona. Maximum persona of single tweet is 3.
 
-       | Persona       | Tweet Count   |
+       |   Persona     |  Tweet Count  |
        | ------------- | ------------- |
        | Patients      |      432      |
        | Pharmacists   |      261      |
