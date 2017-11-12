@@ -61,13 +61,15 @@ In this approach we manually annotated each tweet. In case of ambiguity we assig
       | Researcher    |      266      |
       | Other         |      261      |
       
-* Text Normalization and Spell correction : Once we get the tweet data, we first normalize the tweet text and for each word present in the tweet we use spell checker and make necessary corrections.
+### Text Normalization and Spell correction
+Once we get the tweet data, we first normalize the tweet text and for each word present in the tweet we use spell checker and make necessary corrections.
 
-* Feature Extraction : On the crawled data feature engineering is performed and around 40 features are extracted from the tweet data. The features belong in following categories:
- * Metadata
- * Simple Tweet Content
- * Linguistic Content in Tweet
- * Tweet Author
- * Tweet Network
- * Tweet links
+### Feature Extraction
+On the crawled data feature engineering is performed and around 40 features are extracted from the tweet data. The features belong in following categories:
+  * Metadata
+  * Simple Tweet Content
+  * Linguistic Content in Tweet
+  * Tweet Author
+  * Tweet Network
+  * Tweet links
 
