@@ -67,6 +67,10 @@ Once we get the tweet data, we first normalize the tweet text and for each word 
 ### Feature Extraction
 On the crawled data feature engineering is performed and around 40 features are extracted from the tweet data. The features belong in following categories:
   * Metadata
+     * Number of seconds since tweet: We converted the string which represents time to a proper date time form then calculated the time difference.
+     * Source of tweet: Whether the tweet is tweeted from web , phone etc.
+     * Geographic Location: The latitude and longitude from where the tweet was posted.
+
   * Simple Tweet Content
   * Linguistic Content in Tweet
   * Tweet Author
