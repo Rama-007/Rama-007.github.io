@@ -78,3 +78,13 @@ We propose a Convolutional Neural Network (CNN) based architecture to extract fe
 
 ![alt text](https://github.com/Rama-007/Rama-007.github.io/blob/master/temp.jpg)
 
+
+### Link to video
+
+* Link to Presentation
+* Link to YouTube
+* Link to 
+* Github Links :
+https://github.com/sanket0211/Medical-Persona-Classification-in-Social-Media/tree/master/datasets
+* Report :
+https://docs.google.com/document/d/11GBqwGuNXoznBeOZG3xKIhGJoUJ_Y63YITKbKaDg_qM/edit
