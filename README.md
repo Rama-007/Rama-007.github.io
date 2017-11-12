@@ -31,10 +31,16 @@ We used **TwitterSearch** API with the drugs as keywords and get all the data re
  
 The dataset generation in phase one :
 
-llsdflsklfsf
 * **Semi-Supervised approach**
 
+  * We collected handles of people belonging to different persona based on their popularity using google search.
+  * We collected tweets from the above handles related to medical domain using keyword search. Using twitter api, we collected tweets for 6 persona using various apt-key words related to each persona. Dataset Information :
 
-
-  * Collected the handles of people belonging to different persona
-  * Collected tweets from the above handles related to medical domain using keyword search
+| Persona       | Tweet Count   |
+| ------------- | ------------- |
+| Patients      |      120      |
+| Pharmacists   |       69      |
+| Caretaker     |       71      |
+| Consultant    |      200      |
+| Journalist    |      127      |
+| Researcher    |      130      |
