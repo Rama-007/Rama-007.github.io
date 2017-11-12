@@ -8,42 +8,28 @@ The aim of this project is to identify the **persona** of a given tweet. Our set
 - Researcher
 - Other
 
+## About the project
+Given a social media post, identify the medical personae associated with it. We post this as multi-label text classification problem, where our label set is the set of personae.
 
+There are two primary reasons for setting this as a multi-label classification task (as opposed to single-label) :
+* There might be posts involving conversations between multiple personae. For eg. a tweet describing patient and consultant conversation.
+* A post might be of ambiguous nature and hence can potentially be mapped to more than one label by a human annotator. 
 
-## Welcome to GitHub Pages
+Tis project was assigned a team of 4(which is us) as a part of Major Project for the Information Retrieval and Extraction Course. This project was divided into three phases. In the first phase we were required to come up with a scope document and deliverables for the second and the third phase respectively. In the second and third phase, we had to actually code and then implement what we had proposed.
 
-You can use the [editor on GitHub](https://github.com/Rama-007/Rama-007.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Approach
+- Crawling
+- Text Normalization, Spell correction
+- Feature Extraction
+- Deep Learning Methods for Classification
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Crawling 
 
-### Markdown
+The main  goal is to extract tweets belonging to multiple personae. But crawling tweets at random would have been a mess and not useful. So we restricted the tweets by maintaining a list of Top 400 drugs used in medical domain, for example: Amikacin, Aspirin, Thiamine etc. and selecting only those tweets which contain these words in them.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rama-007/Rama-007.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+We used **TwitterSearch** API with the drugs as keywords and get all the data related to that tweet in dictionary format.
+ 
+The dataset generation in phase one :
+* **Semi-Supervised approach**
+  * Collected the handles of people belonging to different persona
+  * Collected tweets from the above handles related to medical domain using keyword search
